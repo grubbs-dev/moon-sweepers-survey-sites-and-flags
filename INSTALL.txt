@@ -1,0 +1,7 @@
+Extract the release ZIP into the Moon Sweepers installation directory.
+
+The final layout must be:
+
+BepInEx\plugins\SurveySitesAndFlags\SurveySitesAndFlags.dll
+
+Open the orange Moon Map console inside a station and press E. Gray markers are undiscovered; green markers are discovered.

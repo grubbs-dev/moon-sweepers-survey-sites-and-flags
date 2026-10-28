@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net6.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable><GameDir>D:\Moon Sweepers Modding\Modded-1.0.5</GameDir></PropertyGroup>
+ <ItemGroup>
+  <Reference Include="UnityEngine.UI" HintPath="$(GameDir)/BepInEx/interop/UnityEngine.UI.dll" Private="false" />
+  <Reference Include="Unity.TextMeshPro" HintPath="$(GameDir)/BepInEx/interop/Unity.TextMeshPro.dll" Private="false" />
+  <Reference Include="BepInEx.Core" HintPath="$(GameDir)/BepInEx/core/BepInEx.Core.dll" Private="false" />
+  <Reference Include="BepInEx.Unity.IL2CPP" HintPath="$(GameDir)/BepInEx/core/BepInEx.Unity.IL2CPP.dll" Private="false" />
+  <Reference Include="Il2CppInterop.Runtime" HintPath="$(GameDir)/BepInEx/core/Il2CppInterop.Runtime.dll" Private="false" />
+  <Reference Include="0Harmony" HintPath="$(GameDir)/BepInEx/core/0Harmony.dll" Private="false" />
+  <Reference Include="Assembly-CSharp" HintPath="$(GameDir)/BepInEx/interop/Assembly-CSharp.dll" Private="false" />
+  <Reference Include="Il2Cppmscorlib" HintPath="$(GameDir)/BepInEx/interop/Il2Cppmscorlib.dll" Private="false" />
+  <Reference Include="UnityEngine.CoreModule" HintPath="$(GameDir)/BepInEx/interop/UnityEngine.CoreModule.dll" Private="false" />
+ </ItemGroup>
+</Project>
