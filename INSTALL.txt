@@ -1,7 +1,6 @@
-Extract the release ZIP into the Moon Sweepers installation directory.
+Extract the archive into the Moon Sweepers installation directory (the folder containing MoonSweepers.exe).
 
-The final layout must be:
+Required file:
+BepInEx/plugins/SurveySitesAndFlags/SurveySitesAndFlags.dll
 
-BepInEx\plugins\SurveySitesAndFlags\SurveySitesAndFlags.dll
-
-Open the orange Moon Map console inside a station and press E. Gray markers are undiscovered; green markers are discovered.
+Open the orange station console and press E to view the Moon Map.

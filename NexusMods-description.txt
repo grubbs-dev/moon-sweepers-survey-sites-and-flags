@@ -1,51 +1,16 @@
-SURVEY SITES AND FLAGS
+[size=5][b]Survey Sites and Flags 0.1.4[/b][/size]
 
-Survey Sites and Flags adds every survey site and flag to the orange Moon Map inside stations, making it easy to see which locations are still missing.
+Shows all flags and survey sites on the station Moon Map, even before they have been discovered.
 
-FEATURES
+[b]0.1.4 fixes[/b]
+[list]
+[*]Fresh saves now show undiscovered flags and survey sites.
+[*]Map markers use the live globe view scale for accurate placement.
+[*]Undiscovered markers are gray; discovered locations are high-contrast red.
+[*]Avoids duplicate native markers.
+[/list]
 
-- All flags and survey sites are shown on the station Moon Map.
-- Markers use the game's actual world coordinates and line up with their real locations on the globe.
-- Undiscovered flags and sites appear gray.
-- Untangled flags and surveyed sites appear bright green.
-- Native discovered markers are hidden to prevent duplicate icons.
-- No extra HUD, no F9 menu, and no changed controls.
+[b]Installation[/b]
+Extract the archive into the Moon Sweepers folder containing MoonSweepers.exe. The DLL must be located at:
 
-HOW TO USE
-
-1. Walk to the orange Moon Map console inside any station.
-2. Press E to open the Moon Map.
-3. Gray markers are undiscovered locations.
-4. Green markers are flags you have untangled or sites you have surveyed.
-
-REQUIREMENTS
-
-- Moon Sweepers 1.0.5 (Windows x64)
-- BepInEx 6 IL2CPP win-x64
-- The Moon Sweepers BepInEx patcher/bootstrap used by your installation
-
-BepInEx download:
-https://github.com/BepInEx/BepInEx/releases
-
-INSTALLATION
-
-1. Close Moon Sweepers.
-2. Extract the archive into the folder containing MoonSweepers.exe.
-3. Confirm the file exists at BepInEx\plugins\SurveySitesAndFlags\SurveySitesAndFlags.dll.
-4. Launch the game and open the station Moon Map.
-
-UNINSTALLATION
-
-Remove BepInEx\plugins\SurveySitesAndFlags.
-
-MULTIPLAYER
-
-The mod reads the game's existing landmark and discovered-state data. For best results, use the same mod version for every player. Multiplayer behavior follows the game's normal shared world-state synchronization.
-
-COMPATIBILITY
-
-Built and tested against Moon Sweepers 1.0.5. The mod is focused on the station Moon Map and does not alter the standard M map.
-
-CREDITS
-
-Moon Sweepers, BepInEx, Il2CppInterop, and the community patcher belong to their respective creators. This is an unofficial community mod.
+BepInEx/plugins/SurveySitesAndFlags/SurveySitesAndFlags.dll
